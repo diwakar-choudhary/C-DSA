@@ -21,7 +21,7 @@ int main()
         }
     }
 
-    if(cnt>2){
+     if(cnt>2){
         cout<<"\nNot Prime";
     }else
     cout<<"\nPrime ";

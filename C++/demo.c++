@@ -4,7 +4,14 @@ using namespace std;
 
 
 int main(){
-    cout<<"hello world";
-    string name = "diwakar";
-    cout<<name;
+    int n;
+    cin>>n;
+    int count =1;
+    int sum=0;
+    for(int i=count;i<=n;i++){
+        sum=sum+i;
+    }
+
+    cout<<sum;
+    
 }
